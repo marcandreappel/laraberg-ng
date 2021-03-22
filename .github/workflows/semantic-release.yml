@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
-      - name: Setup Semantic
+      - name: Setup
         uses: docker://deshiloh/docker-semantic-release-github-ci
       - name: Release
         env:
