@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Setup
-        uses: marcandreappel/docker-semantic-release-github-ci@latest
+        uses: docker://marcandreappel/docker-semantic-release-github-ci
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
