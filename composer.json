@@ -9,11 +9,11 @@
         }
     ],
     "require": {
-        "embed/embed": "^3.3"
+        "embed/embed": "^v3.4"
     },
     "require-dev": {
-        "orchestra/testbench": "^3.7",
-        "phpunit/phpunit": "^7.0"
+        "orchestra/testbench": "^v6.15",
+        "phpunit/phpunit": "^9.3"
     },
     "autoload": {
         "psr-4": {
